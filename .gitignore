@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Media & static (optional: if not versioning user uploads or collected static)
+media/
+staticfiles/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
+.env.*
+
+# Migrations (optional — if you auto-generate them and don’t want to version them)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+# Uncomment the next line if you don't want to commit migration files at all
+# */migrations/*.py
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
